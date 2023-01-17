@@ -79,7 +79,6 @@ const mediaOfStudentsAge =
 
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `
-  <h1>HOX</h1>
   <h3>Uma lista contendo a cidade e quantos alunos são dessa cidade</h3>
   <table>
   <tr>${qtyOfStudentsOnCity}</tr>

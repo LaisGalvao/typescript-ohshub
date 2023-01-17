@@ -61,6 +61,7 @@ const students: Student[] = [
   },
 ];
 
+//a resolução está incompleta !
 const cityOfStudents = students.map((c: any) => c.city);
 const qtyOfStudentsOnCity = () => {
   let stdnts = students.map((st) => {
@@ -71,7 +72,7 @@ const qtyOfStudentsOnCity = () => {
   console.log(stdnts);
 };
 
-//console.log(qtyOfStudentsOnCity);
+
 const mediaOfStudentsAge =
   students.map((a) => a.age).reduce((a, acc: number) => a + acc) /
   students.length;
